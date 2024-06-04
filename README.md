@@ -1,27 +1,15 @@
 # ExcelExtractor
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
 
-## Development server
+
+## Descripción
+
+El proyecto es un PoC (Proof of Concept) de como extraer datos de una planilla de excel y mostrarlos dentro de una table.  
+Esta situación podría ser utilizada al hacer un Bulk insert, donde se extraen los datos de la hoja de cálculo y se los convierte a un Array Json. Estos pasan a ser parte de un FormArray, el cual el usuario puede modificar y finalmente enviar el formulario al BackEnd para que haga la inserción de la data (habiendo siso manipulada o no)  
+
+
+## Servidor de Desarrollo
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
